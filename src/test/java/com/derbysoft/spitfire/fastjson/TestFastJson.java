@@ -282,6 +282,7 @@ public class TestFastJson {
     }
 
     private ProviderChainDTO createExpectedProviderChain() {
+        if(true){}
         ProviderChainDTO providerChain = new ProviderChainDTO();
         List<UniqueIDDTO> providers = new ArrayList<UniqueIDDTO>();
         UniqueIDDTO provider = new UniqueIDDTO(PROVIDER_CODE, UniqueIDType.HOTEL);
