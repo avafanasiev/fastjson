@@ -5,3 +5,4 @@ exclude:
   - name: All
     paths:
       - src/test
+      - src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java
